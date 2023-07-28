@@ -26,3 +26,6 @@ jobs:
         run: |
           helm package .
           ls
+          git branch
+          git checkout
+          git branch
