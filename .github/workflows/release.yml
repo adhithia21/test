@@ -25,8 +25,14 @@ jobs:
       - name: Configure Git
         run: |
           helm package .
+          echo '-----------------------'
           ls
           git branch
+          echo '-----------------------'
           git checkout charts
           git branch
           ls
+          echo '-----------------------'
+          mv application-2.3.0.tgz charts/
+          helm repo index charts/
+          cat charts/index.yaml
