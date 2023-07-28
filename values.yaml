@@ -1,2 +1,2 @@
 image: nginx:latest
-replicas: 1
+replicas: 2
