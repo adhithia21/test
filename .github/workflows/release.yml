@@ -14,14 +14,15 @@ jobs:
         with:
           fetch-depth: 0
 
+      - uses: azure/setup-helm@v3
+
       - name: Configure Git
         run: |
           git config user.name "adhithia"
           git config user.email "adhithia@users.noreply.github.com"
+          ls
 
-      - name: Run chart-releaser
-        uses: helm/chart-releaser-action@v1.5.0
-        with:
-          charts_dir: chartses
-        env:
-          CR_TOKEN: "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"
+      - name: Configure Git
+        run: |
+          helm package .
+          ls
