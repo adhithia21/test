@@ -1,0 +1,6 @@
+apiVersion: v2
+name: application
+description: Adhithia helm charts simple application
+type: application
+version: 1.0.0
+appVersion: "1.0"
