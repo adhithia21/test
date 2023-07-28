@@ -27,5 +27,6 @@ jobs:
           helm package .
           ls
           git branch
-          git checkout
+          git checkout charts
           git branch
+          ls
