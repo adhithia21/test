@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  application:
+  - apiVersion: v2
+    appVersion: "1.1"
+    created: "2023-07-28T15:12:26.098740858+07:00"
+    description: Adhithia helm charts simple application
+    digest: 69668162c7f2ed3c69fd1cc3a09ec8133e8b6d93d8ce1155862a2ee970bdce0b
+    name: application
+    type: application
+    urls:
+    - application-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2023-07-28T15:12:26.098242551+07:00"
+    description: Adhithia helm charts simple application
+    digest: fa3e9e2a11fa3363e6ff116c00e9de3ae349a6c981dea46af4f8f0906e7b7186
+    name: application
+    type: application
+    urls:
+    - application-1.0.0.tgz
+    version: 1.0.0
+generated: "2023-07-28T15:12:26.097729495+07:00"

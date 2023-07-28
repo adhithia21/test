@@ -1,2 +1,0 @@
-image: nginx:latest
-replicas: 2
