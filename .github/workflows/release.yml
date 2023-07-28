@@ -38,4 +38,4 @@ jobs:
           helm repo index charts/
           cat charts/index.yaml
           echo '-----------------------'
-          
+          git push origin charts
