@@ -44,6 +44,9 @@ jobs:
           git branch
           ls charts/
           git add .
-          git remote add origin https://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@github.com/adhithia21/test.git
           git commit -m "Update release $HI"
-          git push origin charts
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: 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
+          branch: charts
