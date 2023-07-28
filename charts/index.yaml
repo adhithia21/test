@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   application:
   - apiVersion: v2
+    appVersion: "5.0"
+    created: "2023-07-28T09:21:46.391694895Z"
+    description: Adhithia helm charts simple application
+    digest: 40609805022324a0515cc6b3df9b8188dcdfa3e2fa3e8cb9b3660cb455795101
+    name: application
+    type: application
+    urls:
+    - application-5.0.0.tgz
+    version: 5.0.0
+  - apiVersion: v2
     appVersion: "4.0"
-    created: "2023-07-28T09:18:46.410451434Z"
+    created: "2023-07-28T09:21:46.386781928Z"
     description: Adhithia helm charts simple application
     digest: 8f5d4298061ab7d5bd21fde570ec128346b25b252519405b655acc6821375c31
     name: application
@@ -13,7 +23,7 @@ entries:
     version: 4.0.0
   - apiVersion: v2
     appVersion: "3.3"
-    created: "2023-07-28T09:18:46.406385063Z"
+    created: "2023-07-28T09:21:46.379689886Z"
     description: Adhithia helm charts simple application
     digest: ef1827469706fe9472fc9a326ba8ee648f5397daf9d9138753f2d960b0097813
     name: application
@@ -23,7 +33,7 @@ entries:
     version: 3.3.0
   - apiVersion: v2
     appVersion: "2.0"
-    created: "2023-07-28T09:18:46.402988105Z"
+    created: "2023-07-28T09:21:46.375751851Z"
     description: Adhithia helm charts simple application
     digest: 362b78377a136d28fff5eac28b9340fded32db8b2faa7ca70a0cbab1f1319c10
     name: application
@@ -33,7 +43,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: "1.1"
-    created: "2023-07-28T09:18:46.401577081Z"
+    created: "2023-07-28T09:21:46.374117596Z"
     description: Adhithia helm charts simple application
     digest: 69668162c7f2ed3c69fd1cc3a09ec8133e8b6d93d8ce1155862a2ee970bdce0b
     name: application
@@ -43,7 +53,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2023-07-28T09:18:46.400683265Z"
+    created: "2023-07-28T09:21:46.373089361Z"
     description: Adhithia helm charts simple application
     digest: fa3e9e2a11fa3363e6ff116c00e9de3ae349a6c981dea46af4f8f0906e7b7186
     name: application
@@ -51,4 +61,4 @@ entries:
     urls:
     - application-1.0.0.tgz
     version: 1.0.0
-generated: "2023-07-28T09:18:46.399532545Z"
+generated: "2023-07-28T09:21:46.371568309Z"
