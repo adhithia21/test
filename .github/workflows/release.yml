@@ -40,7 +40,7 @@ jobs:
           echo '-----------------------'
       - name: Push
         run: |
-          branch
+          git branch
           ls charts/
           git commit -m "Update release $HI"
       - name: Push changes
