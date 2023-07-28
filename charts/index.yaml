@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   application:
   - apiVersion: v2
+    appVersion: "3.3"
+    created: "2023-07-28T09:15:03.144649058Z"
+    description: Adhithia helm charts simple application
+    digest: ef1827469706fe9472fc9a326ba8ee648f5397daf9d9138753f2d960b0097813
+    name: application
+    type: application
+    urls:
+    - application-3.3.0.tgz
+    version: 3.3.0
+  - apiVersion: v2
     appVersion: "2.0"
-    created: "2023-07-28T15:25:46.613366435+07:00"
+    created: "2023-07-28T09:15:03.140898314Z"
     description: Adhithia helm charts simple application
     digest: 362b78377a136d28fff5eac28b9340fded32db8b2faa7ca70a0cbab1f1319c10
     name: application
@@ -13,7 +23,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: "1.1"
-    created: "2023-07-28T15:25:46.611964663+07:00"
+    created: "2023-07-28T09:15:03.138152962Z"
     description: Adhithia helm charts simple application
     digest: 69668162c7f2ed3c69fd1cc3a09ec8133e8b6d93d8ce1155862a2ee970bdce0b
     name: application
@@ -23,7 +33,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2023-07-28T15:25:46.610619476+07:00"
+    created: "2023-07-28T09:15:03.137173372Z"
     description: Adhithia helm charts simple application
     digest: fa3e9e2a11fa3363e6ff116c00e9de3ae349a6c981dea46af4f8f0906e7b7186
     name: application
@@ -31,4 +41,4 @@ entries:
     urls:
     - application-1.0.0.tgz
     version: 1.0.0
-generated: "2023-07-28T15:25:46.610027174+07:00"
+generated: "2023-07-28T09:15:03.136000264Z"
