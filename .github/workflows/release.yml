@@ -33,6 +33,9 @@ jobs:
           git branch
           ls
           echo '-----------------------'
-          mv application-2.3.0.tgz charts/
+          HI=`ls | grep *tgz`
+          mv $HI charts/
           helm repo index charts/
           cat charts/index.yaml
+          echo '-----------------------'
+          
