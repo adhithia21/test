@@ -39,3 +39,13 @@ jobs:
           cat charts/index.yaml
           echo '-----------------------'
           git push origin charts
+      - name: Push
+        run: |
+          branch
+          ls charts/
+          git commit -m "Update release $HI"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: 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
+          branch: charts
