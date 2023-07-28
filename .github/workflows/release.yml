@@ -25,24 +25,11 @@ jobs:
       - name: Configure Git
         run: |
           helm package .
-          echo '-----------------------'
-          ls
-          git branch
-          echo '-----------------------'
           git checkout charts
-          git branch
-          ls
-          echo '-----------------------'
           HI=`ls | grep *tgz`
           mv $HI charts/
           helm repo index charts/
-          cat charts/index.yaml
-          echo '-----------------------'
-      - name: Push
-        run: |
           git remote rm origin
-          git branch
-          ls charts/
           git add .
           git commit -m "Update release $HI"
           
